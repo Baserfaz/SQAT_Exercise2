@@ -119,9 +119,9 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void executeCommand_frfrf_one_obstacle_1_1() throws PlanetExplorerException {
-		PlanetExplorer pe = new PlanetExplorer(3, 3, "(1,1)");
-		assertEquals("(2,1,W)(1,1)", pe.executeCommand("flff"));
+	public void executeCommand_frfrf_one_obstacle_1_0() throws PlanetExplorerException {
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "(1,0)");
+		assertEquals("(1,1,S)(1,0)", pe.executeCommand("frfrf"));
 	}
 	
 }
