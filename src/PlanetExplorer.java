@@ -120,6 +120,8 @@ public class PlanetExplorer {
 		// check if the explorer is in the top most cell
 		//  -> wrap around the map
 		
+		if(myPosition[1] == mapHeight - 1)
+		
 		myPosition[1] += 1;
 	}
 	
