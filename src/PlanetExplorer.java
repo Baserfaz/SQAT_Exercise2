@@ -116,6 +116,9 @@ public class PlanetExplorer {
 	}
 	
 	private void moveUp() {
+		
+		
+		
 		myPosition[1] += 1;
 	}
 	
