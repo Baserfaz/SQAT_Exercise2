@@ -109,7 +109,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void executeCommand_ffrf_two_obstacles_0_2_and_1_1() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "(0,2)(1,1)");
-		assertEquals("(1,1,E)(0,2)", pe.executeCommand("ffrf"));
+		assertEquals("(0,1,E)(0,2)(1,1)", pe.executeCommand("ffrf"));
 	}
 	
 }
