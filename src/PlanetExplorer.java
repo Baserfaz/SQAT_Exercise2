@@ -152,6 +152,7 @@ public class PlanetExplorer {
 		if(obstacleMap[myPosition[0]][myPosition[1] + 1] == true) {
 			skipNextCommand = true;
 			hitObstacles.add(new int[] { myPosition[0], myPosition[1] + 1 });
+			return;
 		}
 		
 		// check if the explorer is in the top most cell
