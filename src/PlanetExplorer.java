@@ -154,7 +154,7 @@ public class PlanetExplorer {
 		
 		// check for obstacles
 		try {
-			if(IsObstacle([myPosition[0]], [myPosition[1] + 1]) == true) {
+			if(IsObstacle([myPosition[0]], myPosition[1] + 1) == true) {
 				skipNextCommand = true;
 				hitObstacles.add(new int[] { myPosition[0], myPosition[1] + 1 });
 				return;
