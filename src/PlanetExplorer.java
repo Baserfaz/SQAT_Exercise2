@@ -139,7 +139,10 @@ public class PlanetExplorer {
 		// check if the explorer is in the right most cell
 		// -> wrap.
 		
-		myPosition[0] += 1;
+		if(myPosition[0] == mapWidth)
+			myPosition[0] = 0;
+		else
+			myPosition[0] += 1;
  	}
 	
 	private void rotateClockwise() {
