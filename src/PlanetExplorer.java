@@ -127,12 +127,10 @@ public class PlanetExplorer {
 				
 			// turn right = clockwise
 			} else if (commands[i] == 'r') {
-				
 				rotateClockwise();
 				
 			// turn left = counterclockwise
 			} else if (commands[i] == 'l') {
-				
 				rotateCounterClockwise();
 				
 			// else incorrect input
@@ -146,7 +144,6 @@ public class PlanetExplorer {
 	}
 	
 	private void moveUp() {
-		
 		// check for obstacles
 		try {
 			if(IsObstacle(myPosition[0], myPosition[1] + 1) == true) {
@@ -166,7 +163,6 @@ public class PlanetExplorer {
 	}
 	
 	private void moveDown() {
-		
 		// check for obstacles
 		try {
 			if(IsObstacle(myPosition[0], myPosition[1] - 1) == true) {
@@ -187,7 +183,6 @@ public class PlanetExplorer {
 	}
 	
 	private void moveLeft() {
-		
 		// check for obstacles
 		try {
 			if(IsObstacle(myPosition[0] - 1, myPosition[1]) == true) {
@@ -207,7 +202,6 @@ public class PlanetExplorer {
 	}
 	
 	private void moveRight() {
-		
 		// check for obstacles
 		try {
 			if(IsObstacle(myPosition[0] + 1, myPosition[1]) == true) {
