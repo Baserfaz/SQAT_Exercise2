@@ -117,7 +117,8 @@ public class PlanetExplorer {
 	
 	private void moveUp() {
 		
-		
+		// check if the explorer is in the top most cell
+		//  -> wrap around the map
 		
 		myPosition[1] += 1;
 	}
