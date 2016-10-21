@@ -129,7 +129,7 @@ public class PlanetExplorer {
 		// wrap around the map
 		
 		if(myPosition[0] == 0) {
-			myPosition[0] = 
+			myPosition[0] = mapWidth;
 		}
 		
 		myPosition[0] -= 1;
