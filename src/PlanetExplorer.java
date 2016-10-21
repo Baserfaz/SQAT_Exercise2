@@ -129,7 +129,7 @@ public class PlanetExplorer {
 		//  -> wrap around the map
 		
 		if(myPosition[0] == 0) 
-			myPosition[0] = mapWidth;
+			myPosition[0] = mapWidth - 1;
 		else 
 			myPosition[0] -= 1;
 	}
@@ -139,7 +139,7 @@ public class PlanetExplorer {
 		// check if the explorer is in the right most cell
 		// -> wrap.
 		
-		if(myPosition[0] == mapWidth)
+		if(myPosition[0] == mapWidth - 1)
 			myPosition[0] = 0;
 		else
 			myPosition[0] += 1;
