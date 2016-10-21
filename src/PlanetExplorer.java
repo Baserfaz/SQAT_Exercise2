@@ -86,22 +86,11 @@ public class PlanetExplorer {
 				
 			} else if (commands[i] == 'r') {
 				
-				switch(myFacing) {
-				case N:
-					moveUp();
-					break;
-				case W:
-					moveRight();
-					break;
-				case E:
-					moveLeft();
-					break;
-				case S:
-					moveDown();
-					break;
-				}
+				rotateClockwise();
 				
 			} else if (commands[i] == 'l') {
+				
+				rotateCounterClockwise();
 				
 			} else {
 				// error

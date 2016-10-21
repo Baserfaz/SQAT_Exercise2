@@ -22,5 +22,11 @@ public class TestPlanetExplorer {
 		assertEquals("0, 1, N", pe.executeCommand("f"));
 	}
 	
+	@Test
+	public void executeCommand_r() {
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
+		assertEquals("0, 0, W", pe.executeCommand("r"));
+	}
+	
 }
 

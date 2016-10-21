@@ -111,3 +111,7 @@ RefactoringAction 1477051630164 PlanetExplorer.java ADD void rotateClockwise() M
 RefactoringAction 1477051636198 PlanetExplorer.java ADD void rotate FIELD
 RefactoringAction 1477051646719 PlanetExplorer.java RENAME rotate=>void rotateCounterClockwise() METHOD
 EditAction 1477051647340 PlanetExplorer.java 2964 9 9 0
+UnitTestCaseAction 1477051713585 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477051713585 TestPlanetExplorer.java OK
+RefactoringAction 1477051725808 TestPlanetExplorer.java ADD void executeCommand_r() METHOD
+EditAction 1477051739696 TestPlanetExplorer.java 665 4 8 4
