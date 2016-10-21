@@ -127,10 +127,12 @@ public class PlanetExplorer {
 				
 			// turn right = clockwise
 			} else if (commands[i] == 'r') {
+				
 				rotateClockwise();
 				
 			// turn left = counterclockwise
 			} else if (commands[i] == 'l') {
+				
 				rotateCounterClockwise();
 				
 			// else incorrect input
