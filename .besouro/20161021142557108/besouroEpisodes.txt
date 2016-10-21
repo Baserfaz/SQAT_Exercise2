@@ -159,3 +159,5 @@
 1477053170233 test-first 3 502 true
 1477053170234 test-first 3 502 true
 1477053170235 test-first 3 502 true
+1477053250924 test-addition 1 60 true
+1477053250925 test-addition 1 60 true

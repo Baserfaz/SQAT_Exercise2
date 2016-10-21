@@ -219,3 +219,9 @@ RefactoringAction 1477053206031 TestPlanetExplorer.java RENAME executeCommand_()
 EditAction 1477053230202 TestPlanetExplorer.java 1933 10 20 9
 EditAction 1477053232605 TestPlanetExplorer.java 1933 10 20 9
 EditAction 1477053249749 TestPlanetExplorer.java 1933 10 20 9
+UnitTestCaseAction 1477053250924 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477053250924 TestPlanetExplorer.java OK
+RefactoringAction 1477053257148 TestPlanetExplorer.java ADD void executeCommand_wrap_left_to_right()/2 METHOD
+RefactoringAction 1477053261159 TestPlanetExplorer.java RENAME executeCommand_wrap_left_to_right()/2=>void executeCommand_wrap_right_to_right() METHOD
+RefactoringAction 1477053263676 TestPlanetExplorer.java RENAME executeCommand_wrap_right_to_right()=>void executeCommand_wrap_right_to_left() METHOD
+EditAction 1477053264410 TestPlanetExplorer.java 2133 11 22 10
