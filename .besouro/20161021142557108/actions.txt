@@ -240,3 +240,9 @@ EditAction 1477053325287 PlanetExplorer.java 3855 9 13 0
 EditAction 1477053336348 PlanetExplorer.java 3932 9 13 0
 EditAction 1477053352877 PlanetExplorer.java 3972 9 13 0
 EditAction 1477053365363 PlanetExplorer.java 3999 9 13 0
+UnitTestCaseAction 1477053369701 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477053369702 TestPlanetExplorer.java OK
+RefactoringAction 1477053375355 TestPlanetExplorer.java ADD void executeCommand_wrap_top_to_bottom()/2 METHOD
+RefactoringAction 1477053378867 TestPlanetExplorer.java RENAME executeCommand_wrap_top_to_bottom()/2=>void executeCommand_wrap_bottom_to_bottom() METHOD
+RefactoringAction 1477053381381 TestPlanetExplorer.java RENAME executeCommand_wrap_bottom_to_bottom()=>void executeCommand_wrap_bottom_to_top() METHOD
+EditAction 1477053381383 TestPlanetExplorer.java 2537 13 26 12

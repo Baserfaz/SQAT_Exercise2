@@ -163,3 +163,11 @@
 1477053250925 test-addition 1 60 true
 1477053282246 test-addition 1 25 true
 1477053282247 test-addition 1 25 true
+1477053369702 test-first 3 71 true
+1477053369703 test-first 3 71 true
+1477053369704 test-first 3 71 true
+1477053369705 test-first 3 71 true
+1477053369706 test-first 3 71 true
+1477053369707 test-first 3 71 true
+1477053369708 test-first 3 71 true
+1477053369709 test-first 3 71 true
