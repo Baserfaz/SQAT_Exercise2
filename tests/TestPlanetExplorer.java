@@ -124,5 +124,11 @@ public class TestPlanetExplorer {
 		assertEquals("(1,1,S)(1,0)", pe.executeCommand("frfrf"));
 	}
 	
+	@Test
+	public void executeCommand_ffrfllfrbb_two_obstacles_1_2_and_2_0() throws PlanetExplorerException {
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "(1,2)(2,0)");
+		assertEquals("(2,1,N)(1,2)(2,0)", pe.executeCommand("ffrfllfrbb"));
+	}
+	
 }
 
