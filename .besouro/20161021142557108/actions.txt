@@ -369,3 +369,6 @@ UnitTestCaseAction 1477055241494 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477055241494 TestPlanetExplorer.java FAIL
 EditAction 1477055364426 PlanetExplorer.java 4453 10 18 0
 EditAction 1477055367381 PlanetExplorer.java 4457 10 18 0
+RefactoringAction 1477055387444 PlanetExplorer.java ADD boolean skipNext FIELD
+RefactoringAction 1477055391462 PlanetExplorer.java RENAME skipNext=>boolean skipNextCommand FIELD
+EditAction 1477055414104 PlanetExplorer.java 4578 10 18 0
