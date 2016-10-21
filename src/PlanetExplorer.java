@@ -42,9 +42,11 @@ public class PlanetExplorer {
 		
 	}
 	
-	public bool IsObstacle(int x, int y) {
+	public boolean IsObstacle(int x, int y) {
 		
+		boolean b = false;
 		
+		return b;
 		
 	}
 	

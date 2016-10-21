@@ -271,3 +271,10 @@ RefactoringAction 1477053572593 TestPlanetExplorer.java RENAME isObstacle_0()=>v
 RefactoringAction 1477053573604 TestPlanetExplorer.java RENAME isObstacle_()=>void isObstacle_1() METHOD
 RefactoringAction 1477053575617 TestPlanetExplorer.java RENAME isObstacle_1()=>void isObstacle_1_1_true() METHOD
 EditAction 1477053622369 TestPlanetExplorer.java 2714 14 28 13
+CompilationAction 1477053622473 TestPlanetExplorer.java
+CompilationAction 1477053643485 PlanetExplorer.java
+CompilationAction 1477053643485 PlanetExplorer.java
+CompilationAction 1477053646911 PlanetExplorer.java
+CompilationAction 1477053647066 PlanetExplorer.java
+CompilationAction 1477053654943 PlanetExplorer.java
+EditAction 1477053666694 TestPlanetExplorer.java 2714 14 28 13
