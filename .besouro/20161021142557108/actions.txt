@@ -465,3 +465,9 @@ EditAction 1477056375337 TestPlanetExplorer.java 3714 19 38 18
 EditAction 1477056397893 TestPlanetExplorer.java 3714 19 38 18
 EditAction 1477056408810 TestPlanetExplorer.java 3709 19 38 18
 EditAction 1477056418188 TestPlanetExplorer.java 3709 19 38 18
+UnitTestCaseAction 1477056420526 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477056420527 TestPlanetExplorer.java OK
+RefactoringAction 1477056434286 TestPlanetExplorer.java ADD void executeCommand_flff_one_obstacle_1_1()/2 METHOD
+RefactoringAction 1477056441799 TestPlanetExplorer.java RENAME executeCommand_flff_one_obstacle_1_1()/2=>void executeCommand_frff_one_obstacle_1_1() METHOD
+RefactoringAction 1477056452314 TestPlanetExplorer.java RENAME executeCommand_frff_one_obstacle_1_1()=>void executeCommand_frfrf_one_obstacle_1_1() METHOD
+EditAction 1477056452969 TestPlanetExplorer.java 3923 20 40 19
