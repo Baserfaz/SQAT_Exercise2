@@ -3,6 +3,8 @@
 // ID:
 // Finish time:
 
+//int[][] planetMap = 
+
 public class PlanetExplorer {
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -12,6 +14,9 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		
+		
+		
 	}
 	
 	public String executeCommand(String command){
