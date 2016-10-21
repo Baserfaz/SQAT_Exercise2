@@ -32,7 +32,7 @@ public class PlanetExplorer {
 		
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -93,7 +93,7 @@ public class PlanetExplorer {
 				rotateCounterClockwise();
 				
 			} else {
-				// error
+				throw new PlanetExplorerException();
 			}
  			
 		}
