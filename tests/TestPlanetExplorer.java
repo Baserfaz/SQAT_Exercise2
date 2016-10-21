@@ -73,7 +73,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void executeCommand_wrap_top_to_bottom() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		assertEquals("(0, 0, E)", pe.executeCommand("rfff"));
+		assertEquals("(0, 0, N)", pe.executeCommand("fff"));
 	}
 	
 }

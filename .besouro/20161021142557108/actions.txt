@@ -233,3 +233,4 @@ RefactoringAction 1477053302772 TestPlanetExplorer.java RENAME executeCommand_wr
 RefactoringAction 1477053303784 TestPlanetExplorer.java RENAME executeCommand_wrap__to_left()=>void executeCommand_wrap_top_to_left() METHOD
 RefactoringAction 1477053306296 TestPlanetExplorer.java RENAME executeCommand_wrap_top_to_left()=>void executeCommand_wrap_top_to_bottom() METHOD
 EditAction 1477053306867 TestPlanetExplorer.java 2337 12 24 11
+EditAction 1477053317957 TestPlanetExplorer.java 2336 12 24 11
