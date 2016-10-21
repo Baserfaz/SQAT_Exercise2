@@ -62,6 +62,12 @@ public class PlanetExplorer {
 			// the second char is x-pos.
 			// the third char is y-pos.
 			// -'0' => converting char to int.
+			
+			// example: "(x,y)(x1,y1)(xn,yn)"
+			//           12345
+			// -> x-pos are always second from open bracket, therefore [i+1]
+			// -> y-pos are always third from open bracket, therefore [i+3] 
+			
 			if(oArr[i] == '(') {
 				isObstacle = true;
 				xpos = oArr[i+1] - '0'; 
