@@ -51,6 +51,7 @@ public class PlanetExplorer {
 		for(int i = 0; i < commands.length; i++) {
 			
 			if(commands[i] == 'f'){
+				
 				switch(myFacing) {
 				case N:
 					moveUp();
@@ -65,7 +66,23 @@ public class PlanetExplorer {
 					moveDown();
 					break;
 				}
+				
 			} else if(commands[i] == 'b') {
+				
+				switch(myFacing) {
+				case N:
+					moveDown();
+					break;
+				case W:
+					moveLeft();
+					break;
+				case E:
+					moveRight();
+					break;
+				case S:
+					moveUp();
+					break;
+				}
 				
 			} else if (commands[i] == 'r') {
 				
