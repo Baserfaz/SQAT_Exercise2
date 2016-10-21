@@ -115,6 +115,10 @@ public class PlanetExplorer {
 		
 	}
 	
+	private void CheckForObstacle() {
+		
+	}
+	
 	private void moveUp() {
 		
 		// check if the explorer is in the top most cell
