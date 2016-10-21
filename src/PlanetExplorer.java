@@ -231,6 +231,10 @@ public class PlanetExplorer {
 		
 		String obstacleString = "";
 		
+		if(hitObstacles.size() > 0) {
+			
+		}
+		
 		return "(" + x + ", " + y + ", " + myFacing + ")";
 	}
 }
