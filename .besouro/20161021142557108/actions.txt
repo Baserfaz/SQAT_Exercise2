@@ -398,3 +398,21 @@ CompilationAction 1477055804100 PlanetExplorer.java
 EditAction 1477055815859 PlanetExplorer.java 4879 10 17 0
 CompilationAction 1477055815949 PlanetExplorer.java
 EditAction 1477055826011 PlanetExplorer.java 4877 10 19 0
+RefactoringAction 1477055886189 PlanetExplorer.java REMOVE CreateReturnString(int, int) METHOD
+RefactoringAction 1477055886189 PlanetExplorer.java REMOVE moveUp() METHOD
+RefactoringAction 1477055886190 PlanetExplorer.java REMOVE rotateCounterClockwise() METHOD
+RefactoringAction 1477055886190 PlanetExplorer.java REMOVE moveDown() METHOD
+RefactoringAction 1477055886191 PlanetExplorer.java REMOVE moveLeft() METHOD
+RefactoringAction 1477055886191 PlanetExplorer.java REMOVE moveRight() METHOD
+RefactoringAction 1477055886191 PlanetExplorer.java REMOVE rotateClockwise() METHOD
+RefactoringAction 1477055887715 PlanetExplorer.java ADD void moveUp() METHOD
+RefactoringAction 1477055887715 PlanetExplorer.java ADD void moveDown() METHOD
+RefactoringAction 1477055887716 PlanetExplorer.java ADD void moveLeft() METHOD
+RefactoringAction 1477055887717 PlanetExplorer.java ADD void moveRight() METHOD
+RefactoringAction 1477055887717 PlanetExplorer.java ADD void rotateClockwise() METHOD
+RefactoringAction 1477055887718 PlanetExplorer.java ADD void rotateCounterClockwise() METHOD
+RefactoringAction 1477055887718 PlanetExplorer.java ADD String CreateReturnString(int, int) METHOD
+UnitTestCaseAction 1477055890183 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477055890184 TestPlanetExplorer.java FAIL
+RefactoringAction 1477055899765 PlanetExplorer.java REMOVE skipNextCommand FIELD
+EditAction 1477055929943 PlanetExplorer.java 4764 10 20 0

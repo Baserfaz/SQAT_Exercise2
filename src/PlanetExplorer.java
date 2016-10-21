@@ -28,8 +28,6 @@ public class PlanetExplorer {
 	// this is a list of obstacles we hit.
 	private List<int[]> hitObstacles = new ArrayList<int[]>();
 	
-	private boolean skipNextCommand = false;
-	
 	public PlanetExplorer(int x, int y, String obstacles){
 		
 		mapHeight = y;
@@ -84,11 +82,6 @@ public class PlanetExplorer {
 		
 		// loop through them.
 		for(int i = 0; i < commands.length; i++) {
-			
-			if(skipNextCommand) {
-				skipNextCommand = false;
-				continue;
-			}
 			
 			// forwards
 			if(commands[i] == 'f'){
@@ -155,7 +148,6 @@ public class PlanetExplorer {
 		// check for obstacles
 		try {
 			if(IsObstacle(myPosition[0], myPosition[1] + 1) == true) {
-				skipNextCommand = true;
 				hitObstacles.add(new int[] { myPosition[0], myPosition[1] + 1 });
 				return;
 			}
@@ -236,6 +228,9 @@ public class PlanetExplorer {
 	}
 	
 	private String CreateReturnString(int x, int y) {
+		
+		String obstacleString = "";
+		
 		return "(" + x + ", " + y + ", " + myFacing + ")";
 	}
 }
