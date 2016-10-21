@@ -14,3 +14,16 @@ RefactoringAction 1477050015230 TestPlanetExplorer.java ADD void planetMap FIELD
 RefactoringAction 1477050018747 TestPlanetExplorer.java RENAME planetMap=>void planetMap_ FIELD
 EditAction 1477050055269 PlanetExplorer.java 1313 2 2 0
 EditAction 1477050088774 TestPlanetExplorer.java 245 1 2 1
+CompilationAction 1477050088882 TestPlanetExplorer.java
+CompilationAction 1477050088882 TestPlanetExplorer.java
+CompilationAction 1477050088883 TestPlanetExplorer.java
+RefactoringAction 1477050198316 TestPlanetExplorer.java RENAME planetMap_=>void executeCommand_start() METHOD
+CompilationAction 1477050287872 TestPlanetExplorer.java
+CompilationAction 1477050287872 TestPlanetExplorer.java
+UnitTestCaseAction 1477050292273 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477050292274 TestPlanetExplorer.java FAIL
+RefactoringAction 1477050447721 PlanetExplorer.java RENAME <initializer /1>=>enum Facing null
+RefactoringAction 1477050449228 PlanetExplorer.java ADD Facing W FIELD
+RefactoringAction 1477050452238 PlanetExplorer.java ADD Facing E FIELD
+RefactoringAction 1477050453255 PlanetExplorer.java ADD Facing S FIELD
+EditAction 1477050459327 PlanetExplorer.java 1384 2 2 0

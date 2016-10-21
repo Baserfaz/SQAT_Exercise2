@@ -11,5 +11,10 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void planetMap_
+	public void executeCommand_start() {
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
+		
+		assertEquals("0, 0, N", pe.executeCommand(""));
+		
+	}
 }

@@ -3,7 +3,14 @@
 // ID:
 // Finish time:
 
+
+
 public class PlanetExplorer {
+	
+	public enum Facing {
+		N, W, E, S
+	}
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -13,7 +20,7 @@ public class PlanetExplorer {
 		 
 	 */
 		
-		int[][] planetMap = new int[x][y];
+		//int[][] planetMap = new int[x][y];
 		
 	}
 	
@@ -29,6 +36,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		String pos = "0, 0";
+		
+		
+		return ;
 	}
 }
