@@ -25,7 +25,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void executeCommand_r() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		assertEquals("0, 0, W", pe.executeCommand("r"));
+		assertEquals("0, 0, E", pe.executeCommand("r"));
 	}
 	
 	@Test (expected = PlanetExplorerException.class)
