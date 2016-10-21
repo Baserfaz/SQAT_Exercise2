@@ -241,6 +241,6 @@ public class PlanetExplorer {
 			
 		}
 		
-		return "(" + x + ", " + y + ", " + myFacing + ")" + obstacleString;
+		return "(" + x + "," + y + "," + myFacing + ")" + obstacleString;
 	}
 }
