@@ -63,3 +63,6 @@ RefactoringAction 1477050805162 TestPlanetExplorer.java ADD void executeCommand_
 RefactoringAction 1477050808176 TestPlanetExplorer.java RENAME executeCommand_=>void executeCommand_f() METHOD
 EditAction 1477050816479 TestPlanetExplorer.java 516 3 6 3
 EditAction 1477050820271 TestPlanetExplorer.java 516 3 6 3
+UnitTestCaseAction 1477050862841 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477050862841 TestPlanetExplorer.java FAIL
+EditAction 1477050958166 PlanetExplorer.java 1689 3 5 0
