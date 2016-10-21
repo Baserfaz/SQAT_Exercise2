@@ -11,25 +11,25 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void executeCommand_start() {
+	public void executeCommand_start() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
 		assertEquals("0, 0, N", pe.executeCommand(""));
 	}
 	
 	@Test
-	public void executeCommand_f() {
+	public void executeCommand_f() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
 		assertEquals("0, 1, N", pe.executeCommand("f"));
 	}
 	
 	@Test
-	public void executeCommand_r() {
+	public void executeCommand_r() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
 		assertEquals("0, 0, W", pe.executeCommand("r"));
 	}
 	
-	@Test
-	public void executeCommand_input_error() {
+	@Test (expected = PlanetExplorerException.class)
+	public void executeCommand_input_error() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
 		pe.executeCommand("o,123");
 	}

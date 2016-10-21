@@ -131,3 +131,8 @@ RefactoringAction 1477051890983 TestPlanetExplorer.java REMOVE import PlanetExpl
 EditAction 1477051899513 TestPlanetExplorer.java 831 5 10 5
 EditAction 1477051912934 TestPlanetExplorer.java 803 5 10 4
 EditAction 1477051961287 PlanetExplorer.java 3285 9 11 0
+CompilationAction 1477051961396 TestPlanetExplorer.java
+CompilationAction 1477051994929 TestPlanetExplorer.java
+UnitTestCaseAction 1477051996141 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477051996141 TestPlanetExplorer.java FAIL
+EditAction 1477052044465 TestPlanetExplorer.java 970 5 10 4
