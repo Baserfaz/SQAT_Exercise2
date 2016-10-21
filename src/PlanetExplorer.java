@@ -120,7 +120,6 @@ public class PlanetExplorer {
  	}
 	
 	private void rotateClockwise() {
-		
 		switch(myFacing) {
 		case N:
 			myFacing = Facing.W;
