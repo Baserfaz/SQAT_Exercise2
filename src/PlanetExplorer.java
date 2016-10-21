@@ -17,7 +17,10 @@ public class PlanetExplorer {
 	// myPosition[1] => Y
 	private int[] myPosition = { 0 , 0 };
 	
-	private int[][] planetMap;
+	private char[][] planetMap;
+	private int mapWidth = 0;
+	private int mapHeight = 0;
+	
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -28,7 +31,9 @@ public class PlanetExplorer {
 		 
 	 */
 		
-		planetMap = new int[x][y];
+		mapHeight = y;
+		mapWidth = x;
+		planetMap = new char[x][y];
 		
 	}
 	
@@ -116,6 +121,12 @@ public class PlanetExplorer {
 	}
 	
 	private void moveLeft() {
+		
+		// check if the explorer is in the left border
+		// wrap around the map
+		
+		if(myPosition[0] == )
+		
 		myPosition[0] -= 1;
 	}
 	
