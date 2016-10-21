@@ -85,12 +85,12 @@ public class PlanetExplorer {
 	}
 	
 	private void moveLeft() {
-		
+		myPosition[0] -= 1;
 	}
 	
 	private void moveRight() {
-		
-	}
+		myPosition[0] += 1;
+ 	}
 	
 	private String CreateReturnString(int x, int y) {
 		return "" + x + ", " + y + ", " + myFacing;
