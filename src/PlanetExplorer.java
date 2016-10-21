@@ -12,6 +12,9 @@ public class PlanetExplorer {
 	}
 	
 	private Facing myFacing = Facing.N;
+	
+	// myPosition[0] => X
+	// myPosition[1] => Y
 	private int[] myPosition = { 0 , 0 };
 	
 	
@@ -74,11 +77,11 @@ public class PlanetExplorer {
 	}
 	
 	private void moveUp() {
-		
+		myPosition[1] += 1;
 	}
 	
 	private void moveDown() {
-		
+		myPosition[1] -= 1;
 	}
 	
 	private void moveLeft() {

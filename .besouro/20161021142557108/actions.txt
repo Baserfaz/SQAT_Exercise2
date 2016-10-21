@@ -86,3 +86,10 @@ RefactoringAction 1477051341242 PlanetExplorer.java ADD void moveDown() METHOD
 RefactoringAction 1477051345252 PlanetExplorer.java ADD void moveLeft() METHOD
 RefactoringAction 1477051351267 PlanetExplorer.java ADD void moveRight() METHOD
 EditAction 1477051351586 PlanetExplorer.java 2221 7 1 0
+CompilationAction 1477051351694 PlanetExplorer.java
+CompilationAction 1477051351695 PlanetExplorer.java
+CompilationAction 1477051391243 PlanetExplorer.java
+CompilationAction 1477051391243 PlanetExplorer.java
+CompilationAction 1477051391431 PlanetExplorer.java
+CompilationAction 1477051391432 PlanetExplorer.java
+EditAction 1477051405728 PlanetExplorer.java 2307 7 3 0
