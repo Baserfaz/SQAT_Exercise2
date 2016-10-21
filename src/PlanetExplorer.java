@@ -134,11 +134,23 @@ public class PlanetExplorer {
 			myFacing = Facing.N;
 			break;
 		}
-		
 	}
 	
 	private void rotateCounterClockwise() {
-		
+		switch(myFacing) {
+		case N:
+			myFacing = Facing.E;
+			break;
+		case S:
+			myFacing = Facing.W;
+			break;
+		case W:
+			myFacing = Facing.N;
+			break;
+		case E:
+			myFacing = Facing.S;
+			break;
+		}
 	}
 	
 	private String CreateReturnString(int x, int y) {
