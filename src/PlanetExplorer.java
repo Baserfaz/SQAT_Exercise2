@@ -53,8 +53,14 @@ public class PlanetExplorer {
 					
 					
 					
+			} else if(commands[i] == 'b') {
+				
+			} else if (commands[i] == 'r') {
+				
+			} else if (commands[i] == 'l') {
+				
 			}
-			
+ 			
 		}
 		
 		// create a string and return it.
