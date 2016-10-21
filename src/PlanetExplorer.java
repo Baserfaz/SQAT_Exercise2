@@ -11,6 +11,10 @@ public class PlanetExplorer {
 		N, W, E, S
 	}
 	
+	private Facing myFacing = Facing.N;
+	private int[] myPosition = { 0 , 0 };
+	
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -36,9 +40,13 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		String pos = "0, 0";
+		int myPosX = myPosition[0];
+		int myPosY = myPosition[1];
 		
 		
-		return ;
+	}
+	
+	private String CreateReturnString(int x, int y, Facing f) {
+		return "" + x + ", " + y + ", " + f;
 	}
 }

@@ -27,3 +27,29 @@ RefactoringAction 1477050449228 PlanetExplorer.java ADD Facing W FIELD
 RefactoringAction 1477050452238 PlanetExplorer.java ADD Facing E FIELD
 RefactoringAction 1477050453255 PlanetExplorer.java ADD Facing S FIELD
 EditAction 1477050459327 PlanetExplorer.java 1384 2 2 0
+CompilationAction 1477050459433 PlanetExplorer.java
+RefactoringAction 1477050477847 PlanetExplorer.java ADD Facing myFacing FIELD
+CompilationAction 1477050478739 PlanetExplorer.java
+CompilationAction 1477050478919 PlanetExplorer.java
+CompilationAction 1477050478919 PlanetExplorer.java
+CompilationAction 1477050484456 PlanetExplorer.java
+CompilationAction 1477050484457 PlanetExplorer.java
+CompilationAction 1477050484637 PlanetExplorer.java
+CompilationAction 1477050484638 PlanetExplorer.java
+RefactoringAction 1477050506995 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1477050512020 PlanetExplorer.java RENAME position=>int FIELD
+RefactoringAction 1477050514038 PlanetExplorer.java RENAME Myposition=>int FIELD
+RefactoringAction 1477050515058 PlanetExplorer.java RENAME myposition=>int FIELD
+RefactoringAction 1477050519576 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int x FIELD
+CompilationAction 1477050530194 PlanetExplorer.java
+CompilationAction 1477050530195 PlanetExplorer.java
+CompilationAction 1477050530368 PlanetExplorer.java
+CompilationAction 1477050674110 PlanetExplorer.java
+UnitTestCaseAction 1477050676249 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477050676249 TestPlanetExplorer.java OK
+RefactoringAction 1477050695243 PlanetExplorer.java ADD String Crea FIELD
+RefactoringAction 1477050696760 PlanetExplorer.java RENAME Crea=>String Create FIELD
+RefactoringAction 1477050704280 PlanetExplorer.java RENAME Create=>String CreateReturnString() METHOD
+RefactoringAction 1477050713300 PlanetExplorer.java RENAME CreateReturnString()=>String CreateReturnString(int, int, facing) METHOD
+RefactoringAction 1477050718349 PlanetExplorer.java RENAME CreateReturnString(int, int, facing)=>String CreateReturnString(int, int, Facing) METHOD
+EditAction 1477050734355 PlanetExplorer.java 1595 3 3 0
