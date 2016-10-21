@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
@@ -31,24 +32,44 @@ public class PlanetExplorer {
 		mapWidth = x;
 		obstacleMap = new boolean[x][y];
 		
+		// fill the empty map with false.
+		// -> later we fill the true values.
+		for (boolean[] row: obstacleMap)
+		    Arrays.fill(row, false);
+		
 		// create a character array of obstacle's positional information.
 		char[] oArr = obstacles.toLowerCase().toCharArray();
 		
-		// populate obstacleMap with obstacles
+		// TODO:
+		// extremely naive way to populate a map.
+		// 1. error handling.
+		
+		// loop through obstacle character array and populate obstacleMap.
 		for(int i = 0; i < oArr.length; i++) {
 			
-			if(oArr[i])
+			int xpos = 0;
+			int ypos = 0;
+			boolean isObstacle = false;
 			
+			// the second char is x-pos.
+			// the third char is y-pos.
+			// -'0' => converting char to int.
+			if(oArr[i] == '(') {
+				isObstacle = true;
+				xpos = oArr[i+1] - '0'; 
+				ypos = oArr[i+3] - '0';
+			}
 			
+			// populate obstacleMap with obstacles
+			if(isObstacle)
+				obstacleMap[xpos][ypos] = true;
+			
+			isObstacle = false;
 		}
-		
 	}
 	
 	public boolean IsObstacle(int x, int y) {
-		
-		
-		
-		
+		if(obstacleMap[x][y] == true) return true; 
 		return false;
 	}
 	

@@ -293,3 +293,33 @@ CompilationAction 1477053795891 PlanetExplorer.java
 CompilationAction 1477053971081 PlanetExplorer.java
 CompilationAction 1477053971082 PlanetExplorer.java
 EditAction 1477053978581 PlanetExplorer.java 3610 11 11 0
+CompilationAction 1477053978678 PlanetExplorer.java
+CompilationAction 1477053978678 PlanetExplorer.java
+CompilationAction 1477053981960 PlanetExplorer.java
+CompilationAction 1477053982928 PlanetExplorer.java
+CompilationAction 1477053982928 PlanetExplorer.java
+CompilationAction 1477053992960 PlanetExplorer.java
+CompilationAction 1477053993140 PlanetExplorer.java
+CompilationAction 1477054026027 PlanetExplorer.java
+CompilationAction 1477054026204 PlanetExplorer.java
+CompilationAction 1477054026205 PlanetExplorer.java
+CompilationAction 1477054041915 PlanetExplorer.java
+CompilationAction 1477054041917 PlanetExplorer.java
+CompilationAction 1477054042095 PlanetExplorer.java
+CompilationAction 1477054042096 PlanetExplorer.java
+CompilationAction 1477054053160 PlanetExplorer.java
+CompilationAction 1477054053161 PlanetExplorer.java
+CompilationAction 1477054354001 PlanetExplorer.java
+CompilationAction 1477054369328 PlanetExplorer.java
+RefactoringAction 1477054554997 PlanetExplorer.java ADD import java.util.Arrays IMPORT
+CompilationAction 1477054655385 PlanetExplorer.java
+CompilationAction 1477054749676 PlanetExplorer.java
+CompilationAction 1477054812541 PlanetExplorer.java
+CompilationAction 1477054815606 PlanetExplorer.java
+CompilationAction 1477054815729 PlanetExplorer.java
+CompilationAction 1477054857176 PlanetExplorer.java
+UnitTestCaseAction 1477054859297 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054859298 TestPlanetExplorer.java OK
+RefactoringAction 1477054873435 TestPlanetExplorer.java ADD void isObstacle_1_1_true()/2 METHOD
+RefactoringAction 1477054876448 TestPlanetExplorer.java RENAME isObstacle_1_1_true()/2=>void isObstacle_2_1_true() METHOD
+EditAction 1477054876577 TestPlanetExplorer.java 2893 15 30 14
