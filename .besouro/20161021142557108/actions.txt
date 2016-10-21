@@ -3,3 +3,6 @@ EditAction 1477049847021 PlanetExplorer.java 1303 2 1 0
 RefactoringAction 1477049864358 TestPlanetExplorer.java ADD void createPlanetMap() METHOD
 EditAction 1477049919684 TestPlanetExplorer.java 295 2 3 1
 EditAction 1477049959368 TestPlanetExplorer.java 319 2 3 1
+UnitTestCaseAction 1477049966478 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477049966479 TestPlanetExplorer.java FAIL
+EditAction 1477049972330 TestPlanetExplorer.java 239 1 2 1
