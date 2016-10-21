@@ -49,7 +49,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void executeCommand_ffrf() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		assertEquals("0, 0, N", pe.executeCommand("rlrl"));
+		assertEquals("1, 2, E", pe.executeCommand("rlrl"));
 	}
 	
 }
