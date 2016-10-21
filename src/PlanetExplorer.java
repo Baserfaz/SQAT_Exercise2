@@ -41,12 +41,12 @@ public class PlanetExplorer {
 		 */
 		
 		// create a character array of the commands.
-		char[] commands = command.toCharArray();
+		char[] commands = command.toUpperCase().toCharArray();
 		
 		// loop through them.
 		for(int i = 0; i < commands.length; i++) {
 			
-			if(commands[i] == 'f'){
+			if(commands[i] == 'F'){
 				switch(myFacing) {
 				
 				}
