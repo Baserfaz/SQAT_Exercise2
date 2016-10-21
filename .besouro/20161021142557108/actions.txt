@@ -141,3 +141,8 @@ UnitTestSessionAction 1477052046016 TestPlanetExplorer.java OK
 EditAction 1477052119385 PlanetExplorer.java 3413 9 11 0
 EditAction 1477052124419 PlanetExplorer.java 3407 9 11 0
 EditAction 1477052141450 PlanetExplorer.java 3402 9 11 0
+RefactoringAction 1477052155775 TestPlanetExplorer.java ADD void executeCommand_ FIELD
+RefactoringAction 1477052157287 TestPlanetExplorer.java RENAME executeCommand_=>void executeCommand_r FIELD
+RefactoringAction 1477052158799 TestPlanetExplorer.java RENAME executeCommand_r=>void executeCommand_rrrr FIELD
+RefactoringAction 1477052159814 TestPlanetExplorer.java RENAME executeCommand_rrrr=>void executeCommand_rrrr() METHOD
+EditAction 1477052172253 TestPlanetExplorer.java 1126 6 12 5
