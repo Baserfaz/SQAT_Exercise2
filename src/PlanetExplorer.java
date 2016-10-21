@@ -141,6 +141,9 @@ public class PlanetExplorer {
 	
 	private void moveUp() {
 		
+		// check for obstacles
+		if(obstacleMap[myPosition[0]][myPosition[1] + 1] == true)
+		
 		// check if the explorer is in the top most cell
 		//  -> wrap around the map
 		if(myPosition[1] == mapHeight - 1)
