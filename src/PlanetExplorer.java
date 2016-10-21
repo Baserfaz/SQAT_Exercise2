@@ -149,10 +149,14 @@ public class PlanetExplorer {
 	private void moveUp() {
 		
 		// check for obstacles
-		if(obstacleMap[myPosition[0]][myPosition[1] + 1] == true) {
-			skipNextCommand = true;
-			hitObstacles.add(new int[] { myPosition[0], myPosition[1] + 1 });
-			return;
+		try {
+			if(obstacleMap[myPosition[0]][myPosition[1] + 1] == true) {
+				skipNextCommand = true;
+				hitObstacles.add(new int[] { myPosition[0], myPosition[1] + 1 });
+				return;
+			}
+		} catch (IndexOutOfBoundsException e) {
+			
 		}
 		
 		// check if the explorer is in the top most cell
