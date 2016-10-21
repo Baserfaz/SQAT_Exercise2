@@ -96,7 +96,7 @@ public class PlanetExplorer {
 				
 				rotateCounterClockwise();
 				
-			// else it is incorrect input
+			// else incorrect input
 			} else {
 				throw new PlanetExplorerException();
 			}
