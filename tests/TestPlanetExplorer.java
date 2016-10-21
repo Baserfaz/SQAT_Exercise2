@@ -82,5 +82,11 @@ public class TestPlanetExplorer {
 		assertEquals("(0, 2, N)", pe.executeCommand("b"));
 	}
 	
+	@Test
+	public void isObstacle_1_1_true() throws PlanetExplorerException {
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "(1,1)");
+		assertEquals(true, pe.IsObstacle(1,1));
+	}
+	
 }
 

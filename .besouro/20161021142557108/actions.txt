@@ -254,3 +254,20 @@ EditAction 1477053447468 PlanetExplorer.java 4156 9 13 0
 UnitTestCaseAction 1477053448629 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477053448630 TestPlanetExplorer.java OK
 EditAction 1477053488213 PlanetExplorer.java 4199 10 13 0
+RefactoringAction 1477053538869 PlanetExplorer.java ADD bool IsObs FIELD
+RefactoringAction 1477053539886 PlanetExplorer.java RENAME IsObs=>bool IsObstac FIELD
+RefactoringAction 1477053541903 PlanetExplorer.java RENAME IsObstac=>bool IsObstacle() METHOD
+RefactoringAction 1477053545420 PlanetExplorer.java RENAME IsObstacle()=>bool IsObstacle(int, int) METHOD
+CompilationAction 1477053545814 PlanetExplorer.java
+CompilationAction 1477053549768 PlanetExplorer.java
+RefactoringAction 1477053554978 TestPlanetExplorer.java ADD void executeCommand_wrap_bottom_to_top()/2 METHOD
+RefactoringAction 1477053559014 TestPlanetExplorer.java RENAME executeCommand_wrap_bottom_to_top()/2=>void executeCommand_() METHOD
+RefactoringAction 1477053564527 TestPlanetExplorer.java RENAME executeCommand_()=>void isObs() METHOD
+RefactoringAction 1477053568039 TestPlanetExplorer.java RENAME isObs()=>void isObstacle_t() METHOD
+RefactoringAction 1477053569053 TestPlanetExplorer.java RENAME isObstacle_t()=>void isObstacle_tr() METHOD
+RefactoringAction 1477053570566 TestPlanetExplorer.java RENAME isObstacle_tr()=>void isObstacle_() METHOD
+RefactoringAction 1477053571578 TestPlanetExplorer.java RENAME isObstacle_()=>void isObstacle_0() METHOD
+RefactoringAction 1477053572593 TestPlanetExplorer.java RENAME isObstacle_0()=>void isObstacle_() METHOD
+RefactoringAction 1477053573604 TestPlanetExplorer.java RENAME isObstacle_()=>void isObstacle_1() METHOD
+RefactoringAction 1477053575617 TestPlanetExplorer.java RENAME isObstacle_1()=>void isObstacle_1_1_true() METHOD
+EditAction 1477053622369 TestPlanetExplorer.java 2714 14 28 13

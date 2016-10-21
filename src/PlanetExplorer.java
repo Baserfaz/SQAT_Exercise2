@@ -38,6 +38,14 @@ public class PlanetExplorer {
 		mapWidth = x;
 		obstacleMap = new char[x][y];
 		
+		//char[] 
+		
+	}
+	
+	public bool IsObstacle(int x, int y) {
+		
+		
+		
 	}
 	
 	public String executeCommand(String command) throws PlanetExplorerException{
