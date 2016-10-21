@@ -18,7 +18,7 @@ public class PlanetExplorer {
 	private int[] myPosition = { 0 , 0 };
 	
 	// map
-	private char[][] obstacleMap;
+	private boolean[][] obstacleMap;
 	
 	// these are needed for the borders
 	private int mapWidth = 0;
@@ -36,18 +36,20 @@ public class PlanetExplorer {
 		
 		mapHeight = y;
 		mapWidth = x;
-		obstacleMap = new char[x][y];
+		obstacleMap = new boolean[x][y];
 		
-		//char[] 
+		// populate obstacleMap with obstacles
+		char[] obstacleCharArr = new char();
 		
 	}
 	
 	public boolean IsObstacle(int x, int y) {
-		
 		boolean b = false;
 		
-		return b;
 		
+		
+		
+		return b;
 	}
 	
 	public String executeCommand(String command) throws PlanetExplorerException{
