@@ -462,3 +462,6 @@ RefactoringAction 1477056363735 TestPlanetExplorer.java RENAME executeCommand_fl
 RefactoringAction 1477056366240 TestPlanetExplorer.java RENAME executeCommand_flff_one_obstacle_()=>void executeCommand_flff_one_obstacle_1 FIELD
 RefactoringAction 1477056368749 TestPlanetExplorer.java RENAME <initializer /1>=>void _1() METHOD
 EditAction 1477056375337 TestPlanetExplorer.java 3714 19 38 18
+EditAction 1477056397893 TestPlanetExplorer.java 3714 19 38 18
+EditAction 1477056408810 TestPlanetExplorer.java 3709 19 38 18
+EditAction 1477056418188 TestPlanetExplorer.java 3709 19 38 18
