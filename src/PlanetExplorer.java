@@ -59,6 +59,8 @@ public class PlanetExplorer {
 				
 			} else if (commands[i] == 'l') {
 				
+			} else {
+				// error
 			}
  			
 		}
