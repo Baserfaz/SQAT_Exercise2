@@ -133,7 +133,6 @@ public class PlanetExplorer {
 		
 		// create a string and return it.
 		return CreateReturnString(myPosition[0], myPosition[1]);
-		
 	}
 	
 	private void moveUp() {
