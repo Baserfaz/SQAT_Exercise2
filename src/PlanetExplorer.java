@@ -206,6 +206,16 @@ public class PlanetExplorer {
 	
 	private void moveRight() {
 		
+		// check for obstacles
+		try {
+			if(IsObstacle(myPosition[0] + 1, myPosition[1]) == true) {
+				hitObstacles.add(new int[] { myPosition[0] + 1, myPosition[1] });
+				return;
+			}
+		} catch (IndexOutOfBoundsException e) {
+			// do something here.
+		}
+		
 		// check if the explorer is in the right most cell
 		// -> wrap.
 		if(myPosition[0] == mapWidth - 1)
