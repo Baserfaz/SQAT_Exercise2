@@ -40,14 +40,15 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		// create a character array of the commands.
 		char[] commands = command.toCharArray();
 		
+		// loop through them.
+		for(int i = 0; i < commands.length; i++) {
+			
+		}
 		
-		
-		int myPosX = myPosition[0];
-		int myPosY = myPosition[1];
-		
-		return CreateReturnString(myPosX, myPosY);
+		return CreateReturnString(myPosition[0], myPosition[1]);
 		
 	}
 	
