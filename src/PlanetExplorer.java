@@ -5,6 +5,12 @@ import java.util.*;
 // ID:
 // Finish time:
 
+
+//TODO:
+// 1. check if there is an obstacle if we wrap around some axis.
+//    -> can we even wrap around.
+// 2. check if the obstacle position is in the map
+
 public class PlanetExplorer {
 	
 	public enum Facing {
@@ -139,10 +145,6 @@ public class PlanetExplorer {
 		return CreateReturnString(myPosition[0], myPosition[1]);
 	}
 	
-	// TODO:
-	// check if there is an obstacle if we wrap around some axis.
-	// -> can we even wrap around.
-	
 	private void moveUp() {
 		
 		// check for obstacles
@@ -259,11 +261,8 @@ public class PlanetExplorer {
 	}
 	
 	private String CreateReturnString(int x, int y) {
-		
 		String obstacleString = "";
-		
 		if(hitObstacles.size() > 0) {
-			
 			// create a string which has all hit obstacle positions.
 			for(int[] arr : hitObstacles) {
 				obstacleString += "(" + arr[0] + "," + arr[1] + ")";
