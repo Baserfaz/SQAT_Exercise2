@@ -156,7 +156,7 @@ public class PlanetExplorer {
 				return;
 			}
 		} catch (IndexOutOfBoundsException e) {
-			
+			// do something here.
 		}
 		
 		// check if the explorer is in the top most cell
