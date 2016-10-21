@@ -165,6 +165,17 @@ public class PlanetExplorer {
 	
 	private void moveDown() {
 		
+		// check for obstacles
+		try {
+			if(IsObstacle(myPosition[0], myPosition[1] - 1) == true) {
+				hitObstacles.add(new int[] { myPosition[0], myPosition[1] - 1 });
+				return;
+			}
+		} catch (IndexOutOfBoundsException e) {
+			// do something here.
+		}
+		
+		
 		// check if the explorer is in the bottom most cell
 		//  -> wrap around the map
 		if(myPosition[1] == 0)
