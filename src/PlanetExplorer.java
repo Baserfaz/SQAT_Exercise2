@@ -39,7 +39,7 @@ public class PlanetExplorer {
 		obstacleMap = new boolean[x][y];
 		
 		// populate obstacleMap with obstacles
-		char[] obstacleCharArr = new char();
+		char[] obstacleCharArr = new char[];
 		
 	}
 	
