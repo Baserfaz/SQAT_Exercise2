@@ -46,7 +46,14 @@ public class PlanetExplorer {
 		// loop through them.
 		for(int i = 0; i < commands.length; i++) {
 			
-			
+			if(commands[i] == 'f'){
+				switch(myFacing) {
+				
+				}
+					
+					
+					
+			}
 			
 		}
 		
