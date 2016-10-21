@@ -154,3 +154,9 @@ RefactoringAction 1477052195921 TestPlanetExplorer.java ADD void executeCommand_
 RefactoringAction 1477052199432 TestPlanetExplorer.java RENAME executeCommand_rrrr()/2=>void executeCommand_rr() METHOD
 RefactoringAction 1477052201437 TestPlanetExplorer.java RENAME executeCommand_rr()=>void executeCommand_rlrl() METHOD
 EditAction 1477052207463 TestPlanetExplorer.java 1343 7 14 6
+UnitTestCaseAction 1477052209247 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052209248 TestPlanetExplorer.java OK
+RefactoringAction 1477052215448 TestPlanetExplorer.java ADD void executeCommand_rlrl()/2 METHOD
+RefactoringAction 1477052220452 TestPlanetExplorer.java RENAME executeCommand_rlrl()/2=>void executeCommand_frrl() METHOD
+RefactoringAction 1477052221962 TestPlanetExplorer.java RENAME executeCommand_frrl()=>void executeCommand_frfr() METHOD
+EditAction 1477052222203 TestPlanetExplorer.java 1529 8 16 7

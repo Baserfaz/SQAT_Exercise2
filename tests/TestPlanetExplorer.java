@@ -46,5 +46,11 @@ public class TestPlanetExplorer {
 		assertEquals("0, 0, N", pe.executeCommand("rlrl"));
 	}
 	
+	@Test
+	public void executeCommand_frfr() throws PlanetExplorerException {
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
+		assertEquals("0, 0, N", pe.executeCommand("rlrl"));
+	}
+	
 }
 
