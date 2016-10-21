@@ -217,3 +217,4 @@ RefactoringAction 1477053196508 TestPlanetExplorer.java RENAME executeCommand_()
 RefactoringAction 1477053199019 TestPlanetExplorer.java RENAME executeCommand_l()=>void executeCommand_() METHOD
 RefactoringAction 1477053206031 TestPlanetExplorer.java RENAME executeCommand_()=>void executeCommand_wrap_left_to_right() METHOD
 EditAction 1477053230202 TestPlanetExplorer.java 1933 10 20 9
+EditAction 1477053232605 TestPlanetExplorer.java 1933 10 20 9

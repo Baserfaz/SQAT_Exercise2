@@ -61,7 +61,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void executeCommand_wrap_left_to_right() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		assertEquals("(3, 0, E)", pe.executeCommand("lf"));
+		assertEquals("(2, 0, E)", pe.executeCommand("lf"));
 	}
 	
 }
