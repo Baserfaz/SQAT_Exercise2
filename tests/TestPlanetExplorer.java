@@ -10,6 +10,6 @@ public class TestPlanetExplorer {
 		assertNotNull(pe);
 	}
 	
-	//@Test
-	//public void 
+	@Test
+	public void planetMap_
 }

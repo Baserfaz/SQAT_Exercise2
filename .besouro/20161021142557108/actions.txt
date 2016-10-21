@@ -13,3 +13,4 @@ RefactoringAction 1477050013212 TestPlanetExplorer.java REMOVE executeCommand_ F
 RefactoringAction 1477050015230 TestPlanetExplorer.java ADD void planetMap FIELD
 RefactoringAction 1477050018747 TestPlanetExplorer.java RENAME planetMap=>void planetMap_ FIELD
 EditAction 1477050055269 PlanetExplorer.java 1313 2 2 0
+EditAction 1477050088774 TestPlanetExplorer.java 245 1 2 1
