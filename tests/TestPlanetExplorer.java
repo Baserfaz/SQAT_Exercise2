@@ -37,19 +37,19 @@ public class TestPlanetExplorer {
 	@Test 
 	public void executeCommand_rrrr() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		assertEquals("0, 0, N", pe.executeCommand("rrrr"));
+		assertEquals("(0, 0, N)", pe.executeCommand("rrrr"));
 	}
 	
 	@Test
 	public void executeCommand_rlrl() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		assertEquals("0, 0, N", pe.executeCommand("rlrl"));
+		assertEquals("(0, 0, N)", pe.executeCommand("rlrl"));
 	}
 	
 	@Test
 	public void executeCommand_ffrf() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		assertEquals("1, 2, E", pe.executeCommand("ffrf"));
+		assertEquals("(1, 2, E)", pe.executeCommand("ffrf"));
 	}
 	
 }
