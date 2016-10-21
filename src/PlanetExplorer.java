@@ -121,6 +121,21 @@ public class PlanetExplorer {
 	
 	private void rotateClockwise() {
 		
+		switch(myFacing) {
+		case N:
+			myFacing = Facing.W;
+			break;
+		case S:
+			myFacing = Facing.E;
+			break;
+		case W:
+			myFacing = Facing.S;
+			break;
+		case E:
+			myFacing = Facing.N;
+			break;
+		}
+		
 	}
 	
 	private void rotateCounterClockwise() {

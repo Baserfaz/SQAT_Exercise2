@@ -115,3 +115,6 @@ UnitTestCaseAction 1477051713585 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477051713585 TestPlanetExplorer.java OK
 RefactoringAction 1477051725808 TestPlanetExplorer.java ADD void executeCommand_r() METHOD
 EditAction 1477051739696 TestPlanetExplorer.java 665 4 8 4
+UnitTestCaseAction 1477051741252 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477051741253 TestPlanetExplorer.java FAIL
+EditAction 1477051823774 PlanetExplorer.java 3034 9 10 0
