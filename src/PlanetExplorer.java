@@ -48,6 +48,7 @@ public class PlanetExplorer {
 			
 		}
 		
+		// create a return string and return it.
 		return CreateReturnString(myPosition[0], myPosition[1]);
 		
 	}
