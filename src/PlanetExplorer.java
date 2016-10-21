@@ -233,6 +233,10 @@ public class PlanetExplorer {
 		
 		if(hitObstacles.size() > 0) {
 			
+			for(int[] arr : hitObstacles) {
+				
+			}
+			
 		}
 		
 		return "(" + x + ", " + y + ", " + myFacing + ")";
