@@ -76,7 +76,7 @@ public class PlanetExplorer {
 		}
 	}
 	
-	// check if there is an obstacle in pos x,pos y
+	// check if there is an obstacle in x,y
 	public boolean IsObstacle(int x, int y) {
 		if(obstacleMap[x][y] == true) return true; 
 		return false;
