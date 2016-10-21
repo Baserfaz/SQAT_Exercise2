@@ -126,10 +126,10 @@ public class PlanetExplorer {
 	private void rotateClockwise() {
 		switch(myFacing) {
 		case N:
-			myFacing = Facing.W;
+			myFacing = Facing.E;
 			break;
 		case S:
-			myFacing = Facing.E;
+			myFacing = Facing.W;
 			break;
 		case W:
 			myFacing = Facing.S;
@@ -143,10 +143,10 @@ public class PlanetExplorer {
 	private void rotateCounterClockwise() {
 		switch(myFacing) {
 		case N:
-			myFacing = Facing.E;
+			myFacing = Facing.W;
 			break;
 		case S:
-			myFacing = Facing.W;
+			myFacing = Facing.E;
 			break;
 		case W:
 			myFacing = Facing.N;
