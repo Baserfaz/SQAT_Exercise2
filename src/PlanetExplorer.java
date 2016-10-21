@@ -235,12 +235,12 @@ public class PlanetExplorer {
 			
 			for(int[] arr : hitObstacles) {
 				
-				obstracleString += "(" + arr[0] + "," + arr[1] + ")";
+				obstacleString += "(" + arr[0] + "," + arr[1] + ")";
 				
 			}
 			
 		}
 		
-		return "(" + x + ", " + y + ", " + myFacing + ")";
+		return "(" + x + ", " + y + ", " + myFacing + ")" + obstacleString;
 	}
 }
