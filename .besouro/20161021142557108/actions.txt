@@ -209,3 +209,11 @@ EditAction 1477053099323 PlanetExplorer.java 3838 9 13 0
 UnitTestCaseAction 1477053102160 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477053102160 TestPlanetExplorer.java FAIL
 EditAction 1477053168755 PlanetExplorer.java 3846 9 13 0
+UnitTestCaseAction 1477053170219 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477053170220 TestPlanetExplorer.java OK
+RefactoringAction 1477053190482 TestPlanetExplorer.java ADD void executeCommand_ffrfff()/2 METHOD
+RefactoringAction 1477053193495 TestPlanetExplorer.java RENAME executeCommand_ffrfff()/2=>void executeCommand_() METHOD
+RefactoringAction 1477053196508 TestPlanetExplorer.java RENAME executeCommand_()=>void executeCommand_l() METHOD
+RefactoringAction 1477053199019 TestPlanetExplorer.java RENAME executeCommand_l()=>void executeCommand_() METHOD
+RefactoringAction 1477053206031 TestPlanetExplorer.java RENAME executeCommand_()=>void executeCommand_wrap_left_to_right() METHOD
+EditAction 1477053230202 TestPlanetExplorer.java 1933 10 20 9
