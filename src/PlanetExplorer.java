@@ -76,10 +76,10 @@ public class PlanetExplorer {
 					moveDown();
 					break;
 				case W:
-					moveLeft();
+					moveRight();
 					break;
 				case E:
-					moveRight();
+					moveLeft();
 					break;
 				case S:
 					moveUp();
