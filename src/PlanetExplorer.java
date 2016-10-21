@@ -121,8 +121,9 @@ public class PlanetExplorer {
 		//  -> wrap around the map
 		
 		if(myPosition[1] == mapHeight - 1)
-		
-		myPosition[1] += 1;
+			myPosition[1] = 0;
+		else
+			myPosition[1] += 1;
 	}
 	
 	private void moveDown() {
