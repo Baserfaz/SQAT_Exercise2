@@ -120,3 +120,12 @@ UnitTestSessionAction 1477051741253 TestPlanetExplorer.java FAIL
 EditAction 1477051823774 PlanetExplorer.java 3034 9 10 0
 EditAction 1477051827412 PlanetExplorer.java 3031 9 10 0
 EditAction 1477051852937 PlanetExplorer.java 3226 9 11 0
+UnitTestCaseAction 1477051854410 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477051854411 TestPlanetExplorer.java OK
+RefactoringAction 1477051868910 TestPlanetExplorer.java ADD void executeCommand_ FIELD
+RefactoringAction 1477051878931 TestPlanetExplorer.java RENAME executeCommand_=>void executeCommand_error() METHOD
+RefactoringAction 1477051881942 TestPlanetExplorer.java RENAME executeCommand_error()=>void executeCommand_in FIELD
+RefactoringAction 1477051885455 TestPlanetExplorer.java RENAME executeCommand_in=>void executeCommand_input_error() METHOD
+RefactoringAction 1477051888969 TestPlanetExplorer.java ADD import PlanetExplorer.Facing IMPORT
+RefactoringAction 1477051890983 TestPlanetExplorer.java REMOVE import PlanetExplorer.Facing IMPORT
+EditAction 1477051899513 TestPlanetExplorer.java 831 5 10 5
