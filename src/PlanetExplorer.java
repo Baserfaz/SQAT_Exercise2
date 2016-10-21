@@ -2,9 +2,8 @@ import java.util.Arrays;
 import java.util.*;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
-// Finish time:
-
+// ID: 144
+// Finish time: 16:42
 
 //TODO:
 // 1. check if there is an obstacle if we wrap around some axis.

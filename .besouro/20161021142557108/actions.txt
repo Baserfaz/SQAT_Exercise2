@@ -504,3 +504,5 @@ EditAction 1477057014510 PlanetExplorer.java 6149 10 24 0
 EditAction 1477057025921 PlanetExplorer.java 6190 10 24 0
 EditAction 1477057043572 PlanetExplorer.java 6219 10 24 0
 EditAction 1477057072178 PlanetExplorer.java 6191 10 24 0
+UnitTestCaseAction 1477057092667 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477057092667 TestPlanetExplorer.java OK
