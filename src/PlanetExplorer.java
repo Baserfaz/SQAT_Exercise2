@@ -100,7 +100,6 @@ public class PlanetExplorer {
 			} else {
 				throw new PlanetExplorerException();
 			}
- 			
 		}
 		
 		// create a string and return it.
