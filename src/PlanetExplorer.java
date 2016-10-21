@@ -132,10 +132,10 @@ public class PlanetExplorer {
 			myFacing = Facing.W;
 			break;
 		case W:
-			myFacing = Facing.S;
+			myFacing = Facing.N;
 			break;
 		case E:
-			myFacing = Facing.N;
+			myFacing = Facing.S;
 			break;
 		}
 	}
@@ -149,10 +149,10 @@ public class PlanetExplorer {
 			myFacing = Facing.E;
 			break;
 		case W:
-			myFacing = Facing.N;
+			myFacing = Facing.S;
 			break;
 		case E:
-			myFacing = Facing.S;
+			myFacing = Facing.N;
 			break;
 		}
 	}
