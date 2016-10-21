@@ -235,7 +235,7 @@ public class PlanetExplorer {
 			
 			for(int[] arr : hitObstacles) {
 				
-				obstracleString += "(" + 
+				obstracleString += "(" + arr[0] + "," + arr[1] + ")";
 				
 			}
 			
