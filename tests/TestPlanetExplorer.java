@@ -94,5 +94,12 @@ public class TestPlanetExplorer {
 		assertEquals(true, pe.IsObstacle(2,1));
 	}
 	
+	@Test
+	public void isObstacle_2_1_false() throws PlanetExplorerException {
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "(2,1)");
+		assertEquals(true, pe.IsObstacle(2,2));
+	}
+	
+	
 }
 

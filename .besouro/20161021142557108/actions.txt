@@ -325,3 +325,9 @@ RefactoringAction 1477054876448 TestPlanetExplorer.java RENAME isObstacle_1_1_tr
 EditAction 1477054876577 TestPlanetExplorer.java 2893 15 30 14
 EditAction 1477054881713 TestPlanetExplorer.java 2893 15 30 14
 EditAction 1477054885126 TestPlanetExplorer.java 2893 15 30 14
+UnitTestCaseAction 1477054888237 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054888238 TestPlanetExplorer.java OK
+RefactoringAction 1477054946994 TestPlanetExplorer.java ADD void isObstacle_2_1_true()/2 METHOD
+RefactoringAction 1477054951007 TestPlanetExplorer.java RENAME isObstacle_2_1_true()/2=>void isObstacle_2_1_tru() METHOD
+RefactoringAction 1477054953519 TestPlanetExplorer.java RENAME isObstacle_2_1_tru()=>void isObstacle_2_1_false() METHOD
+EditAction 1477054963696 TestPlanetExplorer.java 3075 16 32 15

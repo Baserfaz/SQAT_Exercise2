@@ -4,8 +4,6 @@ import java.util.Arrays;
 // ID:
 // Finish time:
 
-
-
 public class PlanetExplorer {
 	
 	public enum Facing {
