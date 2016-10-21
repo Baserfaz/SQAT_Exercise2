@@ -19,7 +19,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void executeCommand_f() {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		assertEquals("0, 0, N", pe.executeCommand("f"));
+		assertEquals("0, 1, N", pe.executeCommand("f"));
 	}
 	
 }
