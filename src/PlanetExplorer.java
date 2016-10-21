@@ -48,10 +48,6 @@ public class PlanetExplorer {
 		// create a character array of obstacle's positional information.
 		char[] oArr = obstacles.toLowerCase().toCharArray();
 		
-		// TODO:
-		// extremely naive way to populate a map.
-		// 1. error handling.
-		
 		// loop through obstacle character array and populate obstacleMap.
 		for(int i = 0; i < oArr.length; i++) {
 			
@@ -67,8 +63,11 @@ public class PlanetExplorer {
 			//           12345
 			// -> x-pos are always second from open bracket, therefore [i+1]
 			// -> y-pos are always third from open bracket, therefore [i+3] 
-			// TODO: if input is wrong -> i.e. doesn't have open brackets, wrong comma placement etc.
-			// --> then this doesn't work at all, because it depends on the open brackets and commas so heavily.
+			
+			// TODO: 
+			// 1. if input is wrong -> i.e. doesn't have open brackets, wrong comma placement etc.
+			//    --> then this doesn't work at all, because it depends on the open brackets and commas so heavily.
+			// 2.  implement ERROR HANDLING!!
 			
 			if(oArr[i] == '(') {
 				isObstacle = true;
