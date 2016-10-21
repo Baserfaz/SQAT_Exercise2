@@ -100,6 +100,11 @@ public class TestPlanetExplorer {
 		assertEquals(false, pe.IsObstacle(1,1));
 	}
 	
+	@Test
+	public void executeCommand_ffrf() throws PlanetExplorerException {
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "(0,2)");
+		assertEquals(false, pe.IsObstacle(1,1));
+	}
 	
 }
 

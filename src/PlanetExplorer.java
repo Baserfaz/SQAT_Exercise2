@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.*;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
@@ -23,6 +24,9 @@ public class PlanetExplorer {
 	// these are needed for the borders
 	private int mapWidth = 0;
 	private int mapHeight = 0;
+	
+	// this is a list of obstacles we hit.
+	private List<int[]> hitObstacles = new ArrayList<int[]>();
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 		

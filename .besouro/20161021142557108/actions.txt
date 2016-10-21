@@ -340,3 +340,22 @@ UnitTestSessionAction 1477054986206 TestPlanetExplorer.java OK
 RefactoringAction 1477055006866 PlanetExplorer.java REMOVE CheckForObstacle() METHOD
 EditAction 1477055023910 PlanetExplorer.java 4246 10 18 0
 EditAction 1477055028346 PlanetExplorer.java 4243 10 18 0
+RefactoringAction 1477055090571 PlanetExplorer.java ADD List<> hitobstacles FIELD
+RefactoringAction 1477055092591 PlanetExplorer.java RENAME hitobstacles=>List<> hitObstacles FIELD
+RefactoringAction 1477055102630 PlanetExplorer.java REMOVE hitObstacles FIELD
+RefactoringAction 1477055103649 PlanetExplorer.java ADD List<int FIELD
+RefactoringAction 1477055108170 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int x FIELD
+CompilationAction 1477055116772 PlanetExplorer.java
+CompilationAction 1477055116772 PlanetExplorer.java
+RefactoringAction 1477055123853 PlanetExplorer.java ADD import java.util.List IMPORT
+CompilationAction 1477055124914 PlanetExplorer.java
+CompilationAction 1477055124914 PlanetExplorer.java
+CompilationAction 1477055125138 PlanetExplorer.java
+RefactoringAction 1477055128331 PlanetExplorer.java REMOVE import java.util.List IMPORT
+RefactoringAction 1477055129356 PlanetExplorer.java ADD import java.util.* IMPORT
+CompilationAction 1477055130034 PlanetExplorer.java
+RefactoringAction 1477055159128 TestPlanetExplorer.java ADD void isObstacle_2_1_false()/2 METHOD
+RefactoringAction 1477055166142 TestPlanetExplorer.java RENAME isObstacle_2_1_false()/2=><initializer /1> null
+RefactoringAction 1477055170655 TestPlanetExplorer.java RENAME <initializer /1>=>void executeCommand_() METHOD
+RefactoringAction 1477055180169 TestPlanetExplorer.java RENAME executeCommand_()=>void executeCommand_ffrf()/2 METHOD
+EditAction 1477055189918 TestPlanetExplorer.java 3254 17 34 16
