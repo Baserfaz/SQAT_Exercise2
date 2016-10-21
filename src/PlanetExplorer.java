@@ -127,7 +127,14 @@ public class PlanetExplorer {
 	}
 	
 	private void moveDown() {
-		myPosition[1] -= 1;
+		
+		// check if the explorer is in the bottom most cell
+		//  -> wrap around the map
+		
+		if(myPosition[1] == 0)
+			myPosition[1] = mapHeight - 1;
+ 		else
+			myPosition[1] -= 1;
 	}
 	
 	private void moveLeft() {
