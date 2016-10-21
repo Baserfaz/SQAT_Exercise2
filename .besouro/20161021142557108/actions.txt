@@ -186,3 +186,8 @@ UnitTestSessionAction 1477052554067 TestPlanetExplorer.java OK
 EditAction 1477052584404 TestPlanetExplorer.java 1535 8 16 7
 EditAction 1477052601049 TestPlanetExplorer.java 1541 8 16 7
 EditAction 1477052613016 PlanetExplorer.java 3409 9 11 0
+UnitTestCaseAction 1477052614502 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052614502 TestPlanetExplorer.java OK
+RefactoringAction 1477052667336 TestPlanetExplorer.java ADD void executeCommand_ffrf()/2 METHOD
+RefactoringAction 1477052680849 TestPlanetExplorer.java RENAME executeCommand_ffrf()/2=>void executeCommand_ffrfff() METHOD
+EditAction 1477052690045 TestPlanetExplorer.java 1733 9 18 8
