@@ -50,6 +50,7 @@ public class PlanetExplorer {
 		// loop through them.
 		for(int i = 0; i < commands.length; i++) {
 			
+			// forwards
 			if(commands[i] == 'f'){
 				
 				switch(myFacing) {
@@ -67,6 +68,7 @@ public class PlanetExplorer {
 					break;
 				}
 				
+			// backwards
 			} else if(commands[i] == 'b') {
 				
 				switch(myFacing) {
@@ -84,14 +86,17 @@ public class PlanetExplorer {
 					break;
 				}
 				
+			// turn right = clockwise
 			} else if (commands[i] == 'r') {
 				
 				rotateClockwise();
 				
+			// turn left = counterclockwise
 			} else if (commands[i] == 'l') {
 				
 				rotateCounterClockwise();
 				
+			// else it is incorrect input
 			} else {
 				throw new PlanetExplorerException();
 			}
