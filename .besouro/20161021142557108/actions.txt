@@ -432,3 +432,12 @@ EditAction 1477056075764 PlanetExplorer.java 4933 10 21 0
 UnitTestCaseAction 1477056077232 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477056077232 TestPlanetExplorer.java FAIL
 EditAction 1477056148769 TestPlanetExplorer.java 3264 17 34 16
+UnitTestCaseAction 1477056150093 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477056150093 TestPlanetExplorer.java OK
+RefactoringAction 1477056160082 TestPlanetExplorer.java ADD void executeCommand_ffrf_one_obstacle_0_2()/2 METHOD
+RefactoringAction 1477056165587 TestPlanetExplorer.java RENAME executeCommand_ffrf_one_obstacle_0_2()/2=>void executeCommand_ffrf_two_obstacle_0_2() METHOD
+RefactoringAction 1477056168091 TestPlanetExplorer.java RENAME executeCommand_ffrf_two_obstacle_0_2()=>void executeCommand_ffrf_two_obstacles_0_2() METHOD
+RefactoringAction 1477056172094 TestPlanetExplorer.java RENAME executeCommand_ffrf_two_obstacles_0_2()=>void executeCommand_ffrf_two_obstacles_0_2_() METHOD
+RefactoringAction 1477056174597 TestPlanetExplorer.java RENAME executeCommand_ffrf_two_obstacles_0_2_()=>void executeCommand_ffrf_two_obstacles_0_2_and_() METHOD
+RefactoringAction 1477056183600 TestPlanetExplorer.java RENAME executeCommand_ffrf_two_obstacles_0_2_and_()=>void executeCommand_ffrf_two_obstacles_0_2_and_1_1() METHOD
+EditAction 1477056184347 TestPlanetExplorer.java 3486 18 36 17
