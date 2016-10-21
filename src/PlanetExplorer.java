@@ -147,7 +147,7 @@ public class PlanetExplorer {
 	}
 	
 	// TODO:
-	// 
+	// check if there is an obstacle if we wrap around some axis.
 	
 	private void moveUp() {
 		
