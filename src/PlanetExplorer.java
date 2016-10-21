@@ -150,7 +150,7 @@ public class PlanetExplorer {
 		
 		// check for obstacles
 		if(obstacleMap[myPosition[0]][myPosition[1] + 1] == true)
-			
+			skipNextCommand = true;
 		
 		// check if the explorer is in the top most cell
 		//  -> wrap around the map
