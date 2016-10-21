@@ -48,7 +48,10 @@ public class PlanetExplorer {
 			
 			if(commands[i] == 'f'){
 				switch(myFacing) {
-				
+				case N:
+					myPosition
+					
+					
 				}
 					
 					
@@ -67,6 +70,22 @@ public class PlanetExplorer {
 		
 		// create a string and return it.
 		return CreateReturnString(myPosition[0], myPosition[1]);
+		
+	}
+	
+	private void moveUp() {
+		
+	}
+	
+	private void moveDown() {
+		
+	}
+	
+	private void moveLeft() {
+		
+	}
+	
+	private void moveRight() {
 		
 	}
 	

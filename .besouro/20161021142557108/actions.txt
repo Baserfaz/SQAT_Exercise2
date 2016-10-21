@@ -77,3 +77,12 @@ EditAction 1477051155722 PlanetExplorer.java 1899 3 4 0
 EditAction 1477051165967 PlanetExplorer.java 1899 3 4 0
 EditAction 1477051208147 PlanetExplorer.java 2022 3 4 0
 EditAction 1477051222700 PlanetExplorer.java 2047 3 4 0
+RefactoringAction 1477051316652 PlanetExplorer.java ADD void add FIELD
+RefactoringAction 1477051319169 PlanetExplorer.java RENAME add=>void move FIELD
+RefactoringAction 1477051322187 PlanetExplorer.java RENAME move=>void moveUp() METHOD
+RefactoringAction 1477051323204 PlanetExplorer.java RENAME moveUp()=>void move FIELD
+RefactoringAction 1477051325223 PlanetExplorer.java RENAME move=>void moveUp() METHOD
+RefactoringAction 1477051341242 PlanetExplorer.java ADD void moveDown() METHOD
+RefactoringAction 1477051345252 PlanetExplorer.java ADD void moveLeft() METHOD
+RefactoringAction 1477051351267 PlanetExplorer.java ADD void moveRight() METHOD
+EditAction 1477051351586 PlanetExplorer.java 2221 7 1 0
