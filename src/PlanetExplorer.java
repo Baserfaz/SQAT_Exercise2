@@ -136,15 +136,10 @@ public class PlanetExplorer {
 		
 	}
 	
-	private void CheckForObstacle() {
-		
-	}
-	
 	private void moveUp() {
 		
 		// check if the explorer is in the top most cell
 		//  -> wrap around the map
-		
 		if(myPosition[1] == mapHeight - 1)
 			myPosition[1] = 0;
 		else
@@ -155,7 +150,6 @@ public class PlanetExplorer {
 		
 		// check if the explorer is in the bottom most cell
 		//  -> wrap around the map
-		
 		if(myPosition[1] == 0)
 			myPosition[1] = mapHeight - 1;
  		else
@@ -166,7 +160,6 @@ public class PlanetExplorer {
 		
 		// check if the explorer is in the left most cell
 		//  -> wrap around the map
-		
 		if(myPosition[0] == 0) 
 			myPosition[0] = mapWidth - 1;
 		else 
@@ -177,7 +170,6 @@ public class PlanetExplorer {
 		
 		// check if the explorer is in the right most cell
 		// -> wrap.
-		
 		if(myPosition[0] == mapWidth - 1)
 			myPosition[0] = 0;
 		else

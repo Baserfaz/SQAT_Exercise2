@@ -335,3 +335,7 @@ UnitTestCaseAction 1477054965054 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477054965054 TestPlanetExplorer.java FAIL
 EditAction 1477054978899 TestPlanetExplorer.java 3075 16 32 15
 EditAction 1477054984320 TestPlanetExplorer.java 3076 16 32 15
+UnitTestCaseAction 1477054986205 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054986206 TestPlanetExplorer.java OK
+RefactoringAction 1477055006866 PlanetExplorer.java REMOVE CheckForObstacle() METHOD
+EditAction 1477055023910 PlanetExplorer.java 4246 10 18 0

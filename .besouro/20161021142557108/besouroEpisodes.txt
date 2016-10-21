@@ -195,3 +195,7 @@
 1477054859317 test-last 1 1371 false
 1477054888238 test-addition 1 14 true
 1477054888239 test-addition 1 14 true
+1477054986206 test-addition 2 39 true
+1477054986207 test-addition 1 39 true
+1477054986208 test-addition 2 39 true
+1477054986209 test-addition 1 39 true
