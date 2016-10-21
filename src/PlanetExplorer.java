@@ -146,6 +146,9 @@ public class PlanetExplorer {
 		return CreateReturnString(myPosition[0], myPosition[1]);
 	}
 	
+	// TODO:
+	// 
+	
 	private void moveUp() {
 		
 		// check for obstacles
