@@ -125,8 +125,8 @@ public class PlanetExplorer {
 	
 	private void moveLeft() {
 		
-		// check if the explorer is in the left border
-		// wrap around the map
+		// check if the explorer is in the left most cell
+		//  -> wrap around the map
 		
 		if(myPosition[0] == 0) 
 			myPosition[0] = mapWidth;
@@ -135,6 +135,10 @@ public class PlanetExplorer {
 	}
 	
 	private void moveRight() {
+		
+		// check if the explorer is in the right most cell
+		// -> wrap.
+		
 		myPosition[0] += 1;
  	}
 	
