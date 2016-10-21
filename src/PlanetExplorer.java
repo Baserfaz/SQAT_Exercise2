@@ -68,7 +68,7 @@ public class PlanetExplorer {
 			// -> x-pos are always second from open bracket, therefore [i+1]
 			// -> y-pos are always third from open bracket, therefore [i+3] 
 			// TODO: if input is wrong -> i.e. doesn't have open brackets/wrong placement etc.
-			// --> then this doesn't work at all.
+			// --> then this doesn't work at all, because it depends on the open brackets.
 			
 			if(oArr[i] == '(') {
 				isObstacle = true;
