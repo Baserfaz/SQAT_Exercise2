@@ -86,6 +86,21 @@ public class PlanetExplorer {
 				
 			} else if (commands[i] == 'r') {
 				
+				switch(myFacing) {
+				case N:
+					moveUp();
+					break;
+				case W:
+					moveRight();
+					break;
+				case E:
+					moveLeft();
+					break;
+				case S:
+					moveDown();
+					break;
+				}
+				
 			} else if (commands[i] == 'l') {
 				
 			} else {
@@ -114,6 +129,14 @@ public class PlanetExplorer {
 	private void moveRight() {
 		myPosition[0] += 1;
  	}
+	
+	private void rotateClockwise() {
+		
+	}
+	
+	private void rotateCounterClockwise() {
+		
+	}
 	
 	private String CreateReturnString(int x, int y) {
 		return "" + x + ", " + y + ", " + myFacing;
