@@ -128,11 +128,10 @@ public class PlanetExplorer {
 		// check if the explorer is in the left border
 		// wrap around the map
 		
-		if(myPosition[0] == 0) {
+		if(myPosition[0] == 0) 
 			myPosition[0] = mapWidth;
-		}
-		
-		myPosition[0] -= 1;
+		else 
+			myPosition[0] -= 1;
 	}
 	
 	private void moveRight() {
