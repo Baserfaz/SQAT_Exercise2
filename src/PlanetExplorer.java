@@ -233,7 +233,7 @@ public class PlanetExplorer {
 		
 		if(hitObstacles.size() > 0) {
 			
-			// create string for all hit obstacle positions.
+			// create a string for all hit obstacle positions.
 			for(int[] arr : hitObstacles) {
 				obstacleString += "(" + arr[0] + "," + arr[1] + ")";
 			}
