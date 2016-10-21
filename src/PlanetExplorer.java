@@ -158,6 +158,6 @@ public class PlanetExplorer {
 	}
 	
 	private String CreateReturnString(int x, int y) {
-		return "" + x + ", " + y + ", " + myFacing;
+		return "(" + x + ", " + y + ", " + myFacing + ")";
 	}
 }
