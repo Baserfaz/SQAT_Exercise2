@@ -53,3 +53,6 @@ RefactoringAction 1477050704280 PlanetExplorer.java RENAME Create=>String Create
 RefactoringAction 1477050713300 PlanetExplorer.java RENAME CreateReturnString()=>String CreateReturnString(int, int, facing) METHOD
 RefactoringAction 1477050718349 PlanetExplorer.java RENAME CreateReturnString(int, int, facing)=>String CreateReturnString(int, int, Facing) METHOD
 EditAction 1477050734355 PlanetExplorer.java 1595 3 3 0
+CompilationAction 1477050734482 PlanetExplorer.java
+RefactoringAction 1477050764105 PlanetExplorer.java RENAME CreateReturnString(int, int, Facing)=>String CreateReturnString(int, int) METHOD
+EditAction 1477050768170 PlanetExplorer.java 1637 3 4 0

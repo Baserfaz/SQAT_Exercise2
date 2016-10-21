@@ -43,10 +43,11 @@ public class PlanetExplorer {
 		int myPosX = myPosition[0];
 		int myPosY = myPosition[1];
 		
+		return CreateReturnString(myPosX, myPosY);
 		
 	}
 	
-	private String CreateReturnString(int x, int y, Facing f) {
-		return "" + x + ", " + y + ", " + f;
+	private String CreateReturnString(int x, int y) {
+		return "" + x + ", " + y + ", " + myFacing;
 	}
 }
