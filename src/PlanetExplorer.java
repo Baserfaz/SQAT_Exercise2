@@ -17,7 +17,10 @@ public class PlanetExplorer {
 	// myPosition[1] => Y
 	private int[] myPosition = { 0 , 0 };
 	
-	private char[][] planetMap;
+	// map
+	private char[][] obstacleMap;
+	
+	// these are needed for the borders
 	private int mapWidth = 0;
 	private int mapHeight = 0;
 	
@@ -33,7 +36,7 @@ public class PlanetExplorer {
 		
 		mapHeight = y;
 		mapWidth = x;
-		planetMap = new char[x][y];
+		obstacleMap = new char[x][y];
 		
 	}
 	
@@ -125,7 +128,9 @@ public class PlanetExplorer {
 		// check if the explorer is in the left border
 		// wrap around the map
 		
-		if(myPosition[0] == )
+		if(myPosition[0] == 0) {
+			myPosition[0] = 
+		}
 		
 		myPosition[0] -= 1;
 	}

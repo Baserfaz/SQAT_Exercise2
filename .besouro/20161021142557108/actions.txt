@@ -196,3 +196,8 @@ UnitTestSessionAction 1477052693986 TestPlanetExplorer.java FAIL
 RefactoringAction 1477052916726 PlanetExplorer.java ADD int max FIELD
 RefactoringAction 1477052925746 PlanetExplorer.java RENAME max=>int mapWidth FIELD
 EditAction 1477052942176 PlanetExplorer.java 3608 9 12 0
+CompilationAction 1477052942297 PlanetExplorer.java
+RefactoringAction 1477052977017 PlanetExplorer.java RENAME planetMap=>char FIELD
+CompilationAction 1477052980088 PlanetExplorer.java
+CompilationAction 1477052980284 PlanetExplorer.java
+EditAction 1477053017194 PlanetExplorer.java 3686 9 12 0
