@@ -31,8 +31,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void executeCommand_input_error() {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		assertEquals("0, 0, W", pe.executeCommand("o,123"));
-		
+		pe.executeCommand("o,123");
 	}
 	
 }

@@ -129,3 +129,4 @@ RefactoringAction 1477051885455 TestPlanetExplorer.java RENAME executeCommand_in
 RefactoringAction 1477051888969 TestPlanetExplorer.java ADD import PlanetExplorer.Facing IMPORT
 RefactoringAction 1477051890983 TestPlanetExplorer.java REMOVE import PlanetExplorer.Facing IMPORT
 EditAction 1477051899513 TestPlanetExplorer.java 831 5 10 5
+EditAction 1477051912934 TestPlanetExplorer.java 803 5 10 4
