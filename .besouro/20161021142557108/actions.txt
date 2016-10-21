@@ -364,3 +364,4 @@ RefactoringAction 1477055193201 TestPlanetExplorer.java RENAME executeCommand_ff
 RefactoringAction 1477055196712 TestPlanetExplorer.java RENAME executeCommand_ffrf_()=>void executeCommand_ffrf_one_obstacle_02() METHOD
 CompilationAction 1477055198559 TestPlanetExplorer.java
 EditAction 1477055225283 TestPlanetExplorer.java 3280 17 34 16
+EditAction 1477055236123 TestPlanetExplorer.java 3287 17 34 16

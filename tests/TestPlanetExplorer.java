@@ -103,7 +103,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void executeCommand_ffrf_one_obstacle_0_2() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "(0,2)");
-		assertEquals("(1,1,E)(0,2)", pe.IsObstacle(1,1));
+		assertEquals("(1,1,E)(0,2)", pe.executeCommand("ffrf"));
 	}
 	
 }
