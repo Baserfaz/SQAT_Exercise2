@@ -17,6 +17,7 @@ public class PlanetExplorer {
 	// myPosition[1] => Y
 	private int[] myPosition = { 0 , 0 };
 	
+	private int[][] planetMap;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -27,7 +28,7 @@ public class PlanetExplorer {
 		 
 	 */
 		
-		//int[][] planetMap = new int[x][y];
+		planetMap = new int[x][y];
 		
 	}
 	
@@ -52,13 +53,18 @@ public class PlanetExplorer {
 			if(commands[i] == 'f'){
 				switch(myFacing) {
 				case N:
-					myPosition
-					
-					
+					moveUp();
+					break;
+				case W:
+					moveRight();
+					break;
+				case E:
+					moveLeft();
+					break;
+				case S:
+					moveDown();
+					break;
 				}
-					
-					
-					
 			} else if(commands[i] == 'b') {
 				
 			} else if (commands[i] == 'r') {
