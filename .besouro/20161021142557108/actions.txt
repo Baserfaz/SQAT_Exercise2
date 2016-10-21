@@ -491,3 +491,6 @@ RefactoringAction 1477056570071 TestPlanetExplorer.java RENAME executeCommand_ff
 RefactoringAction 1477056572583 TestPlanetExplorer.java RENAME executeCommand_ffrfllfrbb_two_obstacles_1_2()=>void executeCommand_ffrfllfrbb_two_obstacles_1_2_and_() METHOD
 RefactoringAction 1477056593097 TestPlanetExplorer.java RENAME executeCommand_ffrfllfrbb_two_obstacles_1_2_and_()=>void executeCommand_ffrfllfrbb_two_obstacles_1_2_and_2_0() METHOD
 EditAction 1477056618216 TestPlanetExplorer.java 4168 21 42 20
+UnitTestCaseAction 1477056619671 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477056619672 TestPlanetExplorer.java OK
+EditAction 1477056643574 PlanetExplorer.java 5747 10 24 0
